@@ -1,0 +1,85 @@
+
+img{
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+/*** TERMINAN GENERALES **/
+
+
+/*** PRESENTACION ARGUMENTO ***/
+.presentacion-argumento{
+    margin-top: 7%;
+}
+
+.contenedor-primer-cuadro{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dos-cuadros{
+    width: 49%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+/***  CUADRO COLOR  ***/
+.resto-argumento{
+    padding-top: 4%;
+}
+
+.cuadro-color{
+    background: #ffcaca;
+    width: 25%;
+    border: 1px solid #5e5e5e;
+
+    display: inline-block;
+    overflow: hidden;
+}
+
+.resto-argumento h2{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.resto-argumento li{
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 200;
+    padding-bottom: 30px;
+    padding-right: 35px;
+    text-align: justify;
+}
+
+
+/***TEXTO RESTO***/
+.texto-resto{
+    width: 74%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.contenedor-resto-argumento{
+    display: flex;
+}
+
+
+.ultimo-texto{
+margin-top: 55px;
+}

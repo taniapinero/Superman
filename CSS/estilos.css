@@ -1,0 +1,114 @@
+#menu,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Rubik Mono One", monospace;
+    font-size: xx-large;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+#nav {
+    background: #590007;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu li {
+    display: inline;
+    margin: 25px;
+}
+
+#menu a:hover {
+    color: rgb(71, 71, 71);
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*VIDEO*/
+
+video {
+    width: 100%;
+}
+
+/*CARTEL*/
+
+.centrar-tamano {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.derecha,
+.izquierda {
+    width: 45%;
+    padding: 25px;
+    float: left;
+    text-align: center;
+}
+
+.izquierda p {
+    font-size: 30px;
+    text-align: left;
+    padding-top: 47px;
+}
+
+.derecha{
+    float: right;
+    margin-bottom: 30px;
+}
+
+.derecha img {
+   width: 75%;
+    float: right;
+    margin-bottom: 30px;
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+footer{
+    clear: both;
+    background: #590007;
+}
+
+footer p{
+    color: #ffffff;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+#nav img{
+width: 5%;
+padding-left: 20px;
+}
+
+
+
+
